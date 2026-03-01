@@ -1,17 +1,7 @@
-class Person:
-    # Parameterized Constructor
+class Student:
     def __init__(self, name, age):
-        self.name = name  # Initialize the instance attribute 'name'
-        self.age = age    # Initialize the instance attribute 'age'
-        print(f"A new person named {self.name} has been created.")
+        self.name = name
+        self.age = age
 
-    def display(self):
-        print(f"Name: {self.name}, Age: {self.age}")
-
-# Creating objects (instances) of the Person class
-person1 = Person("Alice", 25) # The constructor is called automatically here
-person2 = Person("Bob", 30)
-
-# Accessing methods and attributes
-person1.display()
-person2.display()
+s1 = Student("Shahid", 21)
+print(s1.name, s1.age)
